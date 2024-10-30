@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 20px;
+  height: fit-content;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+body {
+  background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMndpY3VmMmdzbnVtbm41bGJqOWRqYzhrOTM0djV0ZzdtOGJiOGkydSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MDJ9IbxxvDUQM/giphy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container p {
+  background-color: aliceblue;
+  width: fit-content;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
